@@ -4,10 +4,15 @@ body {
 }
 
 header, footer {
-    background-color: #282c34;
-    color: white;
-    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
 }
 
 main {
@@ -18,3 +23,44 @@ section {
     max-width: 800px;
     margin: 0 auto;
 }
+
+nav {
+    background-color: #333;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.nav-list a:hover {
+    color: #ddd;
+}
+
+.nav-list a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 600px) {
+    .nav-list {
+      flex-direction: column;
+    }
+  
+    .nav-list li {
+      margin: 0.5rem 0;
+    }
+  }
