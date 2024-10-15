@@ -7,8 +7,7 @@ function Navigation() {
             <ul className="nav-list">
                 <li>
                     <NavLink
-                        to='/'
-                        end
+                        to='/about'
                         className={({ isActive }) => (isActive ? 'active' : undefined)}
                     >
                         About Me
