@@ -51,7 +51,7 @@ function Contact() {
             validateEmail(formState.email);
         }
 
-        if (Object.keys(newErrors).length > 0 || error.email) {
+        if (Object.keys(newErrors).length > 0 || errors.email) {
             setErrors({ ...errors, ...newErrors });
             return;
         }
