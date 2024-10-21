@@ -21,7 +21,7 @@ This application uses React and vite to create responsive portfolio.
 
 This portfolio is deployed on Github Pages. Use the following link:
 
-https://rickhennessey87.github.io/about
+https://rickhennessey87.github.io/Portfolio-using-React/
 
 ![screenshot](./src/assets/images/PortfolioScreenshot.jpg)
 
