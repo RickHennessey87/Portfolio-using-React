@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
-import GTNBRGScreenshot from '../assets/images/GTNBRGScreenshot.png';
+import BrainBusterScreenShot from '../assets/images/bb2Screenshot.png';
 import findYourFurBabyScreenshot from '../assets/images/findYourFurBabyScreenshot.png';
 import MVCTechBlogScreenshot from '../assets/images/MVCTechBlogScreenshot.jpg';
 import WeatherAppScreenshot from '../assets/images/WeatherAppScreenshot.png';
@@ -10,22 +10,16 @@ import personalBlogScreenshot from '../assets/images/personalBlogScreenshot.jpg'
 function Portfolio() {
     const projects = [
         {
-            title: 'GTNBRG',
-            imageUrl: GTNBRGScreenshot,
-            link: 'https://gtnbrg.onrender.com/',
-            githubLink: 'https://github.com/Team-we-dont-know-yet/Bookclub'
+            title: 'BrainBuster',
+            imageUrl: BrainBusterScreenShot,
+            link: 'https://brainbuster-4543.onrender.com/',
+            githubLink: 'https://github.com/p3t3-BrainBuster/BrainBuster'
         },
         {
             title: 'Find Your Fur Baby',
             imageUrl: findYourFurBabyScreenshot,
             link: 'https://pawsitive-connections.github.io/find-your-fur-baby/',
             githubLink: 'https://github.com/Pawsitive-Connections/find-your-fur-baby?tab=readme-ov-file'
-        },
-        {
-            title: 'MVC Tech Blog',
-            imageUrl: MVCTechBlogScreenshot,
-            link: 'https://my-mvc-tech-blog.onrender.com/dashboard',
-            githubLink: 'https://github.com/RickHennessey87/my-mvc-tech-blog'
         },
         {
             title: 'Weather App',
